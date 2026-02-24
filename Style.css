@@ -1,9 +1,13 @@
-*{
+  /* *{
     background-color: chartreuse;
-}
+} */
 h1{
     color: red;
 }
 img{
     width: 400px;
+}
+.rice{
+    color: blueviolet;
+    background-color: deeppink;
 }
