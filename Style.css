@@ -1,6 +1,7 @@
-  /* *{
-    background-color: chartreuse;
-} */
+  *{
+    margin: 0px;
+    padding: 0px;
+  } 
 h1{
     color: red;
 }
@@ -10,4 +11,24 @@ img{
 .rice{
     color: blueviolet;
     background-color: deeppink;
+}
+#sample{
+    background-color: yellow;
+    border-color: black;
+    border: dashed;
+}
+.box{
+    border-style: dotted;
+    margin: 20px 30px;
+    padding: 30px;
+    
+}
+      /* My Flexbox Properties */
+.Container{
+           background-color: blue;
+}
+.Child{
+       background-color: yellow;
+       display: flex;
+       justify-content: space-between;
 }
