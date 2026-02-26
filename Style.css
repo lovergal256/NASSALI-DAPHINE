@@ -24,11 +24,43 @@ img{
     
 }
       /* My Flexbox Properties */
-.Container{
+/* .Container{
            background-color: blue;
-}
+} */
 .Child{
        background-color: yellow;
        display: flex;
        justify-content: space-between;
+       align-content: center;
+}
+/* BLUE CONTAINER */
+       .Blue-container{
+                       border: 6px purple solid;
+                       display: flex;
+                       flex-direction: row;
+                       justify-content: center;
+                       align-items: center;
+                       
+       }
+
+       .Flex-items{
+                  border: 2px solid;
+                  border-color: blue;
+                  margin: 5px;
+                  height: 80px;
+                  width: 80px;
+       }
+.mine{
+    border-right: 5px;
+}
+
+.last{
+     border-color: deeppink;
+    display: flex;
+    border: 4px;
+    align-content: center;
+}
+
+img{
+    width: 40px;
 }
